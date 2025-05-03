@@ -10,17 +10,6 @@ if __name__ == "__main__":
 #helped us fix this problem: https://stackoverflow.com/questions/70386660/flask-not-running
 #to run application, call "python -m flask --app .\app.py run"
 #Helpful vid: https://www.youtube.com/watch?v=6M3LzGmIAso
-@ app.route('/eval')
-def index():
-    return render_template('symptom_evaluation_form.html')
-
-@app.route('/submit-symptoms',methods=['POST'])
-def retrieve_symptoms():
-    # retrieving the symptoms from the form response
-    waves = request.form.get('waves')
-
-
-
 
 
 
