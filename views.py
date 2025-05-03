@@ -5,8 +5,8 @@ views = Blueprint(__name__, 'views') #sets up a Blueprint for our Flask applicat
 
 @views.route("/")
 def default():
-    return "default page!"
-
-@views.route("/callahan")
-def callahan():
     return render_template("test.html")
+
+#@views.route("/callahan")
+#def callahan():
+#    return render_template("test.html")
