@@ -3,6 +3,11 @@
     display: inline-block;
 }
 
+body 
+{
+    background-image: url("beach_image.png");
+}
+
 button {
     padding: 15px;
     background-color: #4CAF50;
