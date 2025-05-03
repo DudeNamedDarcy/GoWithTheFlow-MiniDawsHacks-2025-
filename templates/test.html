@@ -7,7 +7,7 @@
 <body>
     <h1> GO WITH THE FLOW </h1>
 
-    <form action = "/submit-symptoms" method = "post">
+    <form action = "/submit-symptoms" method = "post" class = "form">
 
         <h2> On A Scale of 1 to 10, how Stressed are you? </h2>
         <input type="range" min="1" max="100" value="50" class="StressSlider" name = "StressSlider">
@@ -16,12 +16,27 @@
         <h2> Tell Us How You Feel? </h2>
         <textarea> Please Talk To Us </textarea>
 
-        <input type = "radio" name = "liveAnneReaction">
-        <strong> Great! </strong>
-        <input type = "radio" name = "liveAnneReaction">
-        <strong> Bad</strong>
-        <button> HI </button>
-
+        <h2> Symptoms of Anxiety Attack </h2>
+        <br>
+        Hot/Cold Flashes: <input type = "checkbox" name = "flashes" class = "symptomCheckbox">
+        <br>
+        Shortness of Breath: <input type = "checkbox" name = "breath" class = "symptomCheckbox">
+        <br>
+        Elevated Heart Rate: <input type = "checkbox" name = "heart_beat" class = "symptomCheckbox">
+        <br>
+        Dizziness: <input type = "checkbox" name = "dizziness" class = "symptomCheckbox">
+        <br>
+        Trembling/Shakiness: <input type = "checkbox" name = "trembling" class = "symptomCheckbox">
+        <br>
+        Sweating/Chills: <input type = "checkbox" name = "sweating" class = "symptomCheckbox">
+        <br>
+        Chest/Stomach Pain: <input type = "checkbox" name = "chest_pain" class = "symptomCheckbox">
+        <br>
+        Nausea: <input type = "checkbox" name = "nausea" class = "symptomCheckbox">
+        <br>
+        Dissociation/Derealization: <input type = "checkbox" name = "dissociation" class = "symptomCheckbox">
+        <br>
+        <br>
         <input type = "submit" name = "SubmitButton">
         <input type = "reset" name = "ResetButton">
 
@@ -30,8 +45,15 @@
 
 
     <style>
-        *{
-            background-image: url("beach_image.png");
+        body
+        {
+            background-image: url(beach_image.png);
+        }
+
+        .symptomCheckbox
+        {
+            display: inline-block;
+            text-align: center;
         }
 
         button {
@@ -45,6 +67,13 @@
 
         button:hover {
             background-color: #45a049;
+        }
+
+        .form
+        {
+            text-align: center;
+            display: relative;
+            margin-top: 420px;
         }
     </style>
 </body>
