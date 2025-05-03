@@ -18,15 +18,35 @@ def retrieve_symptoms():
     waves = request.form.get(waves)
     stressValue = (request.form.get('StressSlider')) / 10
     flashes = request.form.get(flashes)
+    if flashes == True:
+        a +=1
     breath = request.form.get(breath)
+    if breath == True:
+        a +=1
     heart_beat = request.form.get(heart_beat)
+    if heart_beat == True:
+        a +=1
     dissociation = request.form.get(dissociation)
+    if dissociation == True:
+        a +=3
     dizziness = request.form.get(dizziness)
+    if dizziness == True:
+        a +=1
     trembling = request.form.get(trembling)
+    if trembling == True:
+        a +=1
     sweating = request.form.get(sweating)
+    if sweating == True:
+        a +=1
     chills = request.form.get(chills)
+    if chills == True:
+        a +=1
     chest_pain = request.form.get(chest_pain)
+    if chest_pain == True:
+        a +=1
     nausea = request.form.get(nausea)
-    return "Stress Slider: "
+    if nausea == True:
+        a +=1
+    return "Stress Slider: ", a
 
 #Good source: https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/
