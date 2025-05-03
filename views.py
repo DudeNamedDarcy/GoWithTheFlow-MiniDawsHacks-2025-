@@ -15,8 +15,6 @@ def index():
 @views.route('/submit-symptoms', methods=['GET', 'POST'])
 def retrieve_symptoms():
     # retrieving the symptoms from the form response
-    waves = request.form.get(waves)
-    stressValue = (request.form.get('StressSlider')) / 10
     flashes = request.form.get(flashes)
     if flashes == True:
         a +=1
@@ -38,15 +36,12 @@ def retrieve_symptoms():
     sweating = request.form.get(sweating)
     if sweating == True:
         a +=1
-    chills = request.form.get(chills)
-    if chills == True:
-        a +=1
     chest_pain = request.form.get(chest_pain)
     if chest_pain == True:
         a +=1
     nausea = request.form.get(nausea)
     if nausea == True:
         a +=1
-    return "Stress Slider: ", a
+    return "Stress Slider: " + a
 
 #Good source: https://www.geeksforgeeks.org/retrieving-html-from-data-using-flask/

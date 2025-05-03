@@ -1,0 +1,41 @@
+[33mcommit b832af58c1a089b83258f31ef26ee0c23476547e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Darcy Loane-Billings <122037471+DudeNamedDarcy@users.noreply.github.com>
+Date:   Sat May 3 12:24:38 2025 -0400
+
+    Fixing HTML Stuff
+
+[33mcommit eda4fdf7255470e7d2d50af09c5c823b352bbdc5[m
+Author: Callahan-Vortex-11 <lowecallahan@gmail.com>
+Date:   Sat May 3 12:12:57 2025 -0400
+
+    symptoms and wave start
+
+[33mcommit 1bea405a15a77a6b3b2badaf35768ed343d47c7f[m
+Author: Darcy Loane-Billings <122037471+DudeNamedDarcy@users.noreply.github.com>
+Date:   Sat May 3 11:46:03 2025 -0400
+
+    Inline CSS Working (Sucks but oh well it is what it is sorry SOEN 287)
+
+[33mcommit 891a7b0c6ebf874bc18f968f234913a6a741e036[m
+Author: Darcy Loane-Billings <122037471+DudeNamedDarcy@users.noreply.github.com>
+Date:   Sat May 3 11:37:51 2025 -0400
+
+    HTML Renders In Flask! Testing External CSS
+
+[33mcommit 751ec0347a81fef355ad4ffb8b391a4fdb8ae491[m
+Author: Callahan-Vortex-11 <lowecallahan@gmail.com>
+Date:   Sat May 3 11:09:24 2025 -0400
+
+    Added Button Test
+
+[33mcommit 65b35f8951ad941619fa0daaef17c4fdcd59b96b[m
+Author: Darcy Loane-Billings <122037471+DudeNamedDarcy@users.noreply.github.com>
+Date:   Sat May 3 10:55:39 2025 -0400
+
+    Testing Changes to Localhost!
+
+[33mcommit 7b4456b8a00f79e19d5ea2805ba01ab737e56af5[m
+Author: Darcy Loane-Billings <122037471+DudeNamedDarcy@users.noreply.github.com>
+Date:   Sat May 3 10:52:34 2025 -0400
+
+    From OG Folder. Fixed IP address issue and starting to add Flask
